@@ -8,6 +8,9 @@ import java.util.ListIterator;
 /*
 Collection
 	|--List：元素是有序的，元素可以重复，因为该体系元素有索引
+		|--ArrayList：底层的数据结构是数组结构，特点：查询速度快，但是增删稍慢   线程不同步
+		|--LinkedList：底层的数据结构是链表结构的，特点：查询速度慢，增删很快
+		|--Vector：底层的数据结构是数组结构   线程同步
 	|--Set：元素是无序的，元素不可以重组
 
 List:
