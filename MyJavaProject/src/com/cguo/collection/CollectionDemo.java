@@ -27,9 +27,7 @@ public class CollectionDemo {
 			System.out.println(it1.next());
 		}
 		
-		
-		
-		
+		System.out.println("over");
 	}
 	
 	public static void base_method() {
